@@ -44,9 +44,11 @@ module.exports = autoGetIP().then(ipInfo => {
 
 ```javascript
 // 只是想获取ip
-const ip = require("usable-local-ip/src/getIP");
+const getIp = require("usable-local-ip/src/getIP");
+const ip = getIp();
 // 只是想获取端口
-const port = require("usable-local-ip/src/getPort");
+const getPort = require("usable-local-ip/src/getPort");
+getProt.then((port)=>{ console.log(port) })
 ```
 
 ## Parames
