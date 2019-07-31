@@ -17,7 +17,7 @@ resolve 结果会返回 ip、host、port
 reject 结果会返回失败原因
 
 
-#### 开启 node 服务器
+#### 开启本地 node 服务器
 
 ```javascript
 const http = require("node");
