@@ -37,6 +37,8 @@ module.exports = autoGetIP().then(ipInfo => {
 });
 ```
 
+other
+
 ```javascript
 // 只是想获取ip
 const ip = require("usable-local-ip/src/getIP");
