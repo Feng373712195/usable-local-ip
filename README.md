@@ -11,7 +11,9 @@ npm install --save-dev usable-local-ip
 ## Example
 
 模块结果会返回 Promise
+
 resolve 结果会返回 ip、host、port
+
 reject 结果会返回失败原因
 
 开启 node 服务器
