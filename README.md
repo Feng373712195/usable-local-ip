@@ -17,7 +17,7 @@ resolve 结果会返回 ip、host、port
 reject 结果会返回失败原因
 
 
-### 开启 node 服务器
+#### 开启 node 服务器
 
 ```javascript
 const http = require("node");
@@ -26,7 +26,7 @@ let server = http.createServer();
 autoGetIP().then(ipInfo => server.listen(ipInfo.port, ipInfo.host));
 ```
 
-### 配置 webpack devServer
+#### 配置 webpack devServer
 
 ```javascript
 // webpackConfig
@@ -40,7 +40,7 @@ module.exports = autoGetIP().then(ipInfo => {
 });
 ```
 
-### other
+#### other
 
 ```javascript
 // 只是想获取ip
