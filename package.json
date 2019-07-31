@@ -1,0 +1,18 @@
+{
+  "name": "usable-local-ip",
+  "version": "1.0.0",
+  "description": "auto get local ip",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "wuzefeng <373712195@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "portfinder": "^1.0.21"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0"
+  }
+}
